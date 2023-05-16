@@ -1,4 +1,4 @@
-const id1='3zTYosJteJ4'
+const id1='8D2PaDSfdkE'
 /* const canal='UC4EHNmruWnhyVGoGLJHCxgA' */
 let url1 = 'https://youtube138.p.rapidapi.com/video/comments/?id='+id1+'&hl=en&gl=US';//comentarios
 let url2 = 'https://youtube138.p.rapidapi.com/video/details/?id='+id1+'&hl=en&gl=US';//del video
@@ -150,7 +150,7 @@ async function fetchData6() {
     fetchData2()
     fetchData3()
     /* fetchData4() */
-    fetchData5()
+    fetchData5(10)
 
 
   } catch (error) {

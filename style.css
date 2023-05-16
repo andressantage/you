@@ -171,3 +171,6 @@ div>h1{
   width: 90%; /* Ancho del contenido, solo para demostración */
   height: 450px; /* Alto del contenido, solo para demostración */
 }
+#d1{
+    text-align: left;
+}
