@@ -28,7 +28,7 @@ async function fetchData1() {
     const response = await fetch(url1, options);
     const result = await response.json();
     let vida=''
-    for(let i=0;i<3;i++){
+    for(let i=0;i<result.comments.length;i++){
       vida+=`
       <div class="s5">
         <img id="a2" src="${result.comments[i].author.avatar[1].url}" alt="">
@@ -40,7 +40,7 @@ async function fetchData1() {
         
         `
     }
-    const agregar=document.getElementById("coment")
+    let agregar=document.getElementById("coment")
     agregar.innerHTML=vida //comentarios agregados
   } catch (error) {
     console.error(error);
