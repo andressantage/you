@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.centrar{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-size: 12px;
+}
+h2{
+    font-size: 14px;
+    width: 80%;
+    text-align: left;
+}
+h4{
+    font-size: 12px;
+    width: 80%;
+    text-align: left;
+}
+p{
+    font-size: 12px;
+}
+img{
+    height: 10%;
+    width: 10%;
+}
+.s1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+.s2{
+    width: 70%;
+    text-align: center;
+}
+.s3{
+    width: 30%;
+    text-align: center;
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-right: 100px;
+} 
+.s4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.s5{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+.s6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.relacionados{
+    display: flex;
+    flex-direction: column;
+}
+.divRelacionados{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.navCanal{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 90%;
+
+}
+.comentarios{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    height: 500px;
+}
+div>h1{
+    height: 5%;
+    margin-top:10px;
+    font-size: 18px;
+}
+.descripcionVideo{
+    text-align: center;
+}
+.videoI{
+    width: 50%;
+    height: 5%;
+    margin: 3px
+}
+.flecha{
+    height: 50px;
+    width: 80px;
+    margin: 3px;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    font-weight: 800;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 30px;
+}
+.btn{
+    margin-right: 200px;
+    margin-left: 4px;
+}
+.barra{
+    margin-left: 200px;
+}
+.logo{
+    height: 5%;
+    width: 5%;
+}
+#a1{
+    margin-top: 7px;
+    margin-bottom: 7px;
+    font-size: 30px;
+    width: 87%;
+    border-bottom: 1px solid black;
+}
+#a2{
+    height: 40px;
+    width: 40px;
+    margin-top: 5px;
+}
+#a3{
+    height: 20px;
+    width: 60%;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+} 
+.videosR{
+    font-size: 18px;
+    margin-top: 5px;
+}
+.d1{
+    margin-top: 10px;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    height: 500px;
+    width: 90%;
+}
+.scrollbar{
+  width: 100%; /* Tamaño definido de la barra */
+  height: 95%; /* Tamaño definido de la barra */
+  overflow: auto; /* Permite que aparezca la barra desplazadora cuando sea necesario */
+}
+.scrollbar1 {
+  width: 90%; /* Tamaño definido de la barra */
+  height: 300px; /* Tamaño definido de la barra */
+  overflow: auto; /* Permite que aparezca la barra desplazadora cuando sea necesario */
+}
+.content {
+  width: 90%; /* Ancho del contenido, solo para demostración */
+  height: 450px; /* Alto del contenido, solo para demostración */
+}
