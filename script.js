@@ -21,7 +21,7 @@ const options = {
 	}
 };
 
-//las demas funciones
+//las demas funci
     
 async function fetchData1() {
     try {

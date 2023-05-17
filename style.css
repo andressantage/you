@@ -164,7 +164,7 @@ div>h1{
 }
 .scrollbar1 {
   width: 90%; /* Tamaño definido de la barra */
-  height: 300px; /* Tamaño definido de la barra */
+  height: 300px; /* Tamaño definido de la barr */
   overflow: auto; /* Permite que aparezca la barra desplazadora cuando sea necesario */
 }
 .content {
