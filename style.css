@@ -58,7 +58,7 @@ img{
 .s5{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
 }
 .s6{
@@ -151,8 +151,8 @@ div>h1{
     margin-top: 5px;
 }
 .d1{
-    margin-top: 10px;
-    border: 0.5px solid black;
+    margin-top: 2px;
+    border: 0.05px solid rgb(203, 203, 203);
     border-radius: 5px;
     height: 500px;
     width: 90%;
@@ -161,16 +161,24 @@ div>h1{
   width: 100%; /* Tamaño definido de la barra */
   height: 95%; /* Tamaño definido de la barra */
   overflow: auto; /* Permite que aparezca la barra desplazadora cuando sea necesario */
+  border: 0.05px solid rgb(203, 203, 203);
+  border-radius: 15px;
 }
 .scrollbar1 {
   width: 90%; /* Tamaño definido de la barra */
   height: 300px; /* Tamaño definido de la barr */
   overflow: auto; /* Permite que aparezca la barra desplazadora cuando sea necesario */
+  border-radius: 15px;
 }
 .content {
   width: 90%; /* Ancho del contenido, solo para demostración */
   height: 450px; /* Alto del contenido, solo para demostración */
+  margin: 10px;
 }
 #d1{
     text-align: left;
+}
+.description{
+    margin-top: 20px;
+    margin-bottom: 0px !important;
 }
